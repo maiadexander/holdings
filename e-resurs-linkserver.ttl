@@ -15,7 +15,7 @@
 #           z Tillgänglig för Göteborgs universitet / Online access for the University of Gothenburg
 #           z CABI Journals:Full Text
 # 866	 	a Available from 2006 volume: 47.
-            z CABI Journals:Full Text
+#           z CABI Journals:Full Text
 
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
