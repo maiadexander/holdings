@@ -1,6 +1,6 @@
 ### NOTE: This is a sketch. Not all terms used here have been defined yet.
 
-### E-book
+### e-book-elib
 
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
