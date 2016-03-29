@@ -28,8 +28,6 @@
 
 # sdo, bf1
 <http://data.lib.ltu.se/hold/item/...> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial ; 
-    :acquisitionStatus :CurrentlyReceived ;
-    :retentionPolicy :PermanentlyRetained ;
     bf1:heldBy <https://libris.kb.se/library/Gdix> ;
     bf1:holdingFor <http://libris.kb.se/bib/10380624> ;
         bf1:systemNumber "(OCoLC)60623320" ,
