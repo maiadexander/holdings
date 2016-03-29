@@ -1,0 +1,34 @@
+### NOTE: This is a sketch. Not all terms used here have been defined yet.
+### E-book
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix sdo: <http://schema.org/> .
+@prefix bf1: <http://bibframe.org/vocab/> .
+@prefix bf2: <http://bibframe.org/vocab/> . # TODO: new URI?
+@prefix : <https://id.kb.se/vocab/> .
+@base <https://libris.kb.se/> .
+
+# sdo, bf1
+<https://libris.kb.se/hold/37769794> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial ;
+    bf1:heldBy <https://libris.kb.se/library/Hasb> ;
+    bf1:holdingFor <http://libris.kb.se/bib/14805941> ;
+    bf1:systemNumber "1016903" ; #Inte unikt?
+    bf1:electronicLocator "http://halmstad.elib.se/Books/Details/1016903" ;
+    bf1:shelfMark "E-Bok" ,
+          "Hc.01/DR" ;
+    bf1:cataloguersNote "origin:Elib" ; #TODO: Ska vi ha interna anmärkningar? Om inte: bf1:cataloguersNote = bf1:copyNote
+    bf1:copyNote "Online epub (0.26 MB)" ,
+          "Offline epub med Adobe-kryptering (0.26 MB)" ,
+          "Låna från ditt bibliotek. Lånekort krävs." .
+
+# bf2
+<https://libris.kb.se/hold/37769794> a bf2:Item ;
+    bf2:heldBy <https://libris.kb.se/library/Hasb> ;
+    bf2:itemOf <http://libris.kb.se/bib/14805941> ;
+    bf2:systemNumber "1016903" ; # Svårt att få ID unikt då det enbart innehåller siffror
+    bf2:electronicLocator "http://halmstad.elib.se/Books/Details/1016903" ;
+    bf2:copyNote "Online epub (0.26 MB)" ,
+      "Offline epub med Adobe-kryptering (0.26 MB)" ,
+      "Låna från ditt bibliotek. Lånekort krävs." .
