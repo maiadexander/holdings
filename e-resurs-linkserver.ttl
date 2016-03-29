@@ -1,4 +1,4 @@
-# E-resurs, länkserver
+### E-resurs, länkserver
 # MARC21
 
 # 001		10380624
@@ -11,8 +11,6 @@
 # 856	4 0	5 Gdixu http://sfxeu11.hosted.exlibrisgroup.com/sfxgub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=954925454933&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&z Tillgänglig för Göteborgs universitet / Online access for the University of Gothenburgz CABI Journals:Full Text
 # 866	 	5 Gdixa Available from 2006 volume: 47.z CABI Journals:Full Text
 
-# E-resurs, länkserver
-
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix org: <http://www.w3.org/ns/org#> .
@@ -24,7 +22,7 @@
 
 # sdo, bf1
 
-<http://data.lib.ltu.se/hold/item/???> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial ;
+<http://data.lib.ltu.se/hold/item/???> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial ; # TODO: 
     :acquisitionStatus :CurrentlyReceived ;
     :retentionPolicy :PermanentlyRetained ;
     sdo:inventoryLevel 1 ;
@@ -43,8 +41,8 @@
 
 # bf2
 
-<http://data.lib.ltu.se/hold/item/???> a bf2:Item ;
-#   bf2:itemId "(OCoLC)60623320" ;
+<http://data.lib.ltu.se/hold/item/???> a bf2:Item ; # TODO: 
+    bf2:itemId "..." ; # TODO: 
     bf2:heldBy <https://libris.kb.se/library/Gdix> ;
     bf2:itemOf <http://libris.kb.se/bib/10380624> ;
     bf2:electronicLocator "http://sfxeu11.hosted.exlibrisgroup.com/sfxgub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=954925454933&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&" ;
@@ -64,10 +62,10 @@
 @prefix : <https://id.kb.se/vocab/> .
 @base <https://libris.kb.se/> .
 
-<http://data.lib.ltu.se/hold/item/???> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial, bf2:Item ;
+<http://data.lib.ltu.se/hold/item/???> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial, bf2:Item ; # TODO: 
     :acquisitionStatus :CurrentlyReceived ;
     :retentionPolicy :PermanentlyRetained ;
-#   bf2:itemId "42670731" ;
+    bf2:itemId "..." ; # TODO: 
     sdo:inventoryLevel 1 ;
     bf1:heldBy <https://libris.kb.se/library/Gdix> ;
     bf2:heldBy <https://libris.kb.se/library/Gdix> ;
