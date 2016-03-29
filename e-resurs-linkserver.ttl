@@ -1,8 +1,8 @@
 # NOTE: This is a sketch. Not all terms used here have been defined yet.
 
 ### E-resurs, länkserver
-# MARC21
 
+# MARC21
 # 001		10380624
 # 022	 	a 1751-0147z 0044-605X
 # 035	 	a (OCoLC)60623320
@@ -23,7 +23,6 @@
 @base <https://libris.kb.se/> .
 
 # sdo, bf1
-
 <http://data.lib.ltu.se/hold/item/???> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial ; # TODO: 
     :acquisitionStatus :CurrentlyReceived ;
     :retentionPolicy :PermanentlyRetained ;
@@ -42,7 +41,6 @@
               "(EBZ)ebs95982e" .
 
 # bf2
-
 <http://data.lib.ltu.se/hold/item/???> a bf2:Item ; # TODO: 
     bf2:itemId "..." ; # TODO: 
     bf2:heldBy <https://libris.kb.se/library/Gdix> ;
@@ -54,7 +52,6 @@
       "(EBZ)ebs95982e" .
 
 # bf1 ; bf2
-
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix org: <http://www.w3.org/ns/org#> .
