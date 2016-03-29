@@ -37,7 +37,7 @@
             bf1:copyNote "Tillgänglig för Göteborgs universitet / Online access for the University of Gothenburg" ,
               "CABI Journals:Full Text" ;
             bf1:serialFirstIssue "Available from 2006 volume: 47" ;
-            bf1:identifier "(OCoLC)60623320" ,
+            bf1:systemNumber "(OCoLC)60623320" ,
               "(EBZ)ebs95982e" .
 
 # bf2
@@ -48,7 +48,7 @@
     bf2:electronicLocator "http://sfxeu11.hosted.exlibrisgroup.com/sfxgub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=954925454933&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&" ;
     bf2:note "Tillgänglig för Göteborgs universitet / Online access for the University of Gothenburg" ,
       "CABI Journals:Full Text" ;
-    bf2:identifier "(OCoLC)60623320"  ,
+    bf2:systemNumber "(OCoLC)60623320"  ,
       "(EBZ)ebs95982e" .
 
 # bf1 ; bf2
@@ -81,7 +81,7 @@
             bf2:note "Tillgänglig för Göteborgs universitet / Online access for the University of Gothenburg" ,
               "CABI Journals:Full Text" ;
             bf1:serialFirstIssue "Available from 2006 volume: 47" ;
-            bf1:identifier "(OCoLC)60623320" ,
+            bf1:systemNumber "(OCoLC)60623320" ,
               "(EBZ)ebs95982e" ;
-            bf2:identifier "(OCoLC)60623320"  ,
+            bf2:systemNumber "(OCoLC)60623320"  ,
               "(EBZ)ebs95982e" .
