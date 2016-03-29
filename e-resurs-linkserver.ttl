@@ -23,7 +23,7 @@
 @base <https://libris.kb.se/> .
 
 # sdo, bf1
-<http://data.lib.ltu.se/hold/item/???> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial ; # TODO: 
+<http://data.lib.ltu.se/hold/item/30966941> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial ; 
     :acquisitionStatus :CurrentlyReceived ;
     :retentionPolicy :PermanentlyRetained ;
     sdo:inventoryLevel 1 ;
@@ -41,8 +41,8 @@
               "(EBZ)ebs95982e" .
 
 # bf2
-<http://data.lib.ltu.se/hold/item/???> a bf2:Item ; # TODO: 
-    bf2:itemId "..." ; # TODO: 
+<http://data.lib.ltu.se/hold/item/30966941> a bf2:Item ; 
+    bf2:itemId "30966941" ; 
     bf2:heldBy <https://libris.kb.se/library/Gdix> ;
     bf2:itemOf <http://libris.kb.se/bib/10380624> ;
     bf2:electronicLocator "http://sfxeu11.hosted.exlibrisgroup.com/sfxgub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=954925454933&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&" ;
@@ -61,10 +61,10 @@
 @prefix : <https://id.kb.se/vocab/> .
 @base <https://libris.kb.se/> .
 
-<http://data.lib.ltu.se/hold/item/???> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial, bf2:Item ; # TODO: 
+<http://data.lib.ltu.se/hold/item/30966941> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial, bf2:Item ;
     :acquisitionStatus :CurrentlyReceived ;
     :retentionPolicy :PermanentlyRetained ;
-    bf2:itemId "..." ; # TODO: 
+    bf2:itemId "30966941" ; 
     sdo:inventoryLevel 1 ;
     bf1:heldBy <https://libris.kb.se/library/Gdix> ;
     bf2:heldBy <https://libris.kb.se/library/Gdix> ;
