@@ -12,7 +12,7 @@
 @base <https://libris.kb.se/> .
 
 # sdo, bf1
-<http://data.lib.ltu.se/hold/item/...> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial ; 
+<https://libris.kb.se/hold/30966941> a sdo:SomeProducts, sdo:Offer, bf1:HeldMaterial ; 
     bf1:heldBy <https://libris.kb.se/library/Gdix> ;
     bf1:holdingFor <http://libris.kb.se/bib/10380624> ;
         bf1:systemNumber "(OCoLC)60623320" ,
@@ -23,7 +23,7 @@
           "CABI Journals:Full Text" .
 
 # bf2
-<http://data.lib.ltu.se/hold/item/...> a bf2:Item ; 
+<https://libris.kb.se/hold/30966941> a bf2:Item ; 
     bf2:heldBy <https://libris.kb.se/library/Gdix> ;
     bf2:systemNumber "(OCoLC)60623320"  ,
       "(EBZ)ebs95982e" .
