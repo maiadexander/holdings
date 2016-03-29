@@ -1,21 +1,6 @@
-# NOTE: This is a sketch. Not all terms used here have been defined yet.
+### NOTE: This is a sketch. Not all terms used here have been defined yet.
 
 ### E-resurs, länkserver
-
-# MARC21
-# 001		10380624
-# 022	 	a 1751-0147
-#           z 0044-605X
-# 035	 	a (OCoLC)60623320
-# 035	 	a (EBZ)ebs95982e
-# 841	 	a y ab 160112||0000|||||001||||||000000e 3
-# 599	 	a SFX
-# 852	 	b Gdix
-# 856	4 0	u http://sfxeu11.hosted.exlibrisgroup.com/sfxgub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=954925454933&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&
-#           z Tillgänglig för Göteborgs universitet / Online access for the University of Gothenburg
-#           z CABI Journals:Full Text
-# 866	 	a Available from 2006 volume: 47.
-#           z CABI Journals:Full Text
 
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
