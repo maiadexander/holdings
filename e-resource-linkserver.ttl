@@ -1,6 +1,7 @@
 ### NOTE: This is a sketch. Not all terms used here have been defined yet.
 
 ### E-resurs, länkserver
+### Fattas: 599 som anger SFX för Gdix
 
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -32,3 +33,4 @@
     bf2:electronicLocator "http://sfxeu11.hosted.exlibrisgroup.com/sfxgub?url_ver=Z39.88-2004&ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/sfxit.com:opac_856&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&sfx.ignore_date_threshold=1&rft.object_id=954925454933&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&" ;
     bf2:note "Tillgänglig för Göteborgs universitet / Online access for the University of Gothenburg" ,
       "CABI Journals:Full Text" .
+
